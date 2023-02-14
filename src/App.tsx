@@ -3,7 +3,7 @@ import Slide from "./components/Slider/Slide";
 const slides = [
   {
     fontFamily: "Montserrat",
-    bgColor: "#412f2d",
+    bgColor: "#000f2d",
     textColor: "#f99195",
     title: "Montserrat",
   },
