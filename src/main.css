@@ -139,4 +139,9 @@ footer {
   .slide {
     padding-top: 20vmin;
   }
+
+  .slide::before {
+    top: 34%;
+    height: 30%;
+  }
 }
