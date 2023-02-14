@@ -69,7 +69,7 @@ export default function Slide({
         <footer>
           <div className="flex-row between">
             <small className="column">LEFT / RIGHT ARROW</small>
-            <small className="column">or</small>
+            <small className="column">~ or ~</small>
             <small className="column">SHIFT + MOUSE WHEEL</small>
           </div>
         </footer>
