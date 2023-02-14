@@ -32,10 +32,12 @@ export default function Slide({
       style={style}
     >
       <div className="container">
-        <div className="flex-row between">
-          <small className="column">#UITIPS</small>
-          <small className="column">{formattedIndex}</small>
-        </div>
+        <header>
+          <div className="flex-row between">
+            <small className="column">#UITIPS</small>
+            <small className="column">{formattedIndex}</small>
+          </div>
+        </header>
         <div className="flex-row">
           <h2>{title}</h2>
         </div>
@@ -64,11 +66,13 @@ export default function Slide({
           <div className="circle"></div>
           <span>{bgColor}</span>
         </div>
-        <div className="flex-row between">
-          <small className="column">CTRL + LEFT / RIGHT ARROW</small>
-          <small className="column">or</small>
-          <small className="column">SHIFT + MOUSE WHEEL</small>
-        </div>
+        <footer>
+          <div className="flex-row between">
+            <small className="column">LEFT / RIGHT ARROW</small>
+            <small className="column">or</small>
+            <small className="column">SHIFT + MOUSE WHEEL</small>
+          </div>
+        </footer>
       </div>
     </div>
   )
