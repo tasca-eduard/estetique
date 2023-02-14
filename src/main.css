@@ -70,7 +70,7 @@ small {
   height: 5vmin;
   border-radius: 50%;
   background: var(--circleBg);
-  border: 1px solid var(--color);
+  border: 2px solid var(--color);
   margin-right: 14px;
 }
 

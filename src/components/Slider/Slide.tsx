@@ -33,8 +33,8 @@ export default function Slide({
     >
       <div className="container">
         <div className="flex-row between">
-          <div className="column">#UITIPS</div>
-          <div className="column">{formattedIndex}</div>
+          <small className="column">#UITIPS</small>
+          <small className="column">{formattedIndex}</small>
         </div>
         <div className="flex-row">
           <h2>{title}</h2>
