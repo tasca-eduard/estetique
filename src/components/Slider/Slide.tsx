@@ -18,6 +18,7 @@ export default function Slide({
   const SENTENCE = "The quick brown fox jumps over the lazy dog.";
   const ALPHABETH = "abcdefghijklmnopqrstuvwxyz";
   const DIGITS = 1234567890;
+  const SYMBOLS = `~!@#$%^&*|()_+{}:"<>?[];',./`
   const formattedIndex = index < 9 ? `0${index}` : index;
   const style = {
     "--background": bgColor,
@@ -52,6 +53,9 @@ export default function Slide({
         </div>
         <div className="flex-row">
           <h4>{DIGITS}</h4>
+        </div>
+        <div className="flex-row">
+          <h4>{SYMBOLS}</h4>
         </div>
         <div className="flex-row">
           <div className="circle"></div>
