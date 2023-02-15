@@ -6,7 +6,6 @@
 
 html {
   font-size: 5vmin;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -23,6 +22,7 @@ body {
 .slide {
   height: 100vh;
   width: 100vw;
+  max-height: 100%;
   scroll-snap-align: start;
   flex-shrink: 0;
   padding: 4vh 10vw;
