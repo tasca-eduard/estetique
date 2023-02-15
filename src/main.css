@@ -6,12 +6,9 @@
 
 html {
   font-size: 5vmin;
-  scrollbar-width: none;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
+
 
 body {
   overflow: hidden;
@@ -22,6 +19,11 @@ body {
   scroll-snap-type: x mandatory;
   overflow: auto;
   display: flex;
+  scrollbar-width: none;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
 }
 
 .slide {
