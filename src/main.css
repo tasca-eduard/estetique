@@ -6,6 +6,11 @@
 
 html {
   font-size: 5vmin;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 body {
